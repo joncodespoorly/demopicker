@@ -5,8 +5,10 @@ const nextConfig = {
   output: 'standalone',
   experimental: {
     // Enable React 19 features
-    serverActions: true,
-    typedRoutes: true,
+    serverActions: {
+      enabled: true
+    },
+    typedRoutes: true
   }
 };
 
